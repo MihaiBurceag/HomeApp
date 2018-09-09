@@ -1,0 +1,5 @@
+@reboot python3 /home/pi/python-apps/radio/bt.py
+#load a specidic radio stream at 10 AM every weekday
+0 10 * * 1-5 sudo /home/pi/python-apps/radio/tananana.sh
+#load a specidic radio stream at 7 AM every weekday
+0 7 * * 1-5 sudo /home/pi/python-apps/radio/rockfm.sh
